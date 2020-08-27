@@ -2,6 +2,6 @@
 
 module Geckodriver
   class Bin
-    VERSION = '0.24.0'
+    VERSION = '0.27.0'
   end
 end
