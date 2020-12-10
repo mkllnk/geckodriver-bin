@@ -29,7 +29,7 @@ If you're using Bundler and Capybara, it's as easy as:
 gem 'geckodriver-bin'
 ```
 
-then, in your specs:
+then, in `spec/rails_helper.rb` or `spec/support/capybara.rb`:
 
 ```ruby
 Capybara.register_driver :selenium do |app|
