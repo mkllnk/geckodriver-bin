@@ -24,20 +24,22 @@ it.
 
 If you're using Bundler and Capybara, it's as easy as:
 
-    # Gemfile
-    gem 'geckodriver-bin'
+```ruby
+# Gemfile
+gem 'geckodriver-bin'
+```
 
 then, in your specs:
 
-    Capybara.register_driver :selenium do |app|
-      options = ::Selenium::WebDriver::Firefox::Options.new
-      # Uncomment line below to run firefox in headless mode
-      # options.args << '--headless'
+```ruby
+Capybara.register_driver :selenium do |app|
+  options = ::Selenium::WebDriver::Firefox::Options.new
+  # Uncomment line below to run firefox in headless mode
+  # options.args << '--headless'
 
-      Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
-    end
-
-
+  Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
+end
+```
 
 # Updating Geckodriver
 
