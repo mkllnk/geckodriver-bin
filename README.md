@@ -3,7 +3,6 @@
 *Note: This is a maintained fork of the abandoned gem [geckodriver-helper](https://github.com/DevicoSolutions/geckodriver-helper)*
 
 ![Build status](https://github.com/0rvar/geckodriver-bin/workflows/Tests/badge.svg)
-
 [![Gem Version](https://badge.fury.io/rb/geckodriver-bin.svg)](https://badge.fury.io/rb/geckodriver-bin)
 
 Easy installation and use of [geckodriver](https://github.com/mozilla/geckodriver), that provides the HTTP API 
