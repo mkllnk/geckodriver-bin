@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'geckodriver/helper/version'
+require 'geckodriver/bin/version'
 require 'fileutils'
 require 'rbconfig'
 require 'open-uri'
@@ -9,7 +9,7 @@ require 'zlib'
 require 'rubygems/package'
 
 module Geckodriver
-  class Helper
+  class Bin
     DRIVER_VERSION = "v0.24.0".freeze
 
     def run *args
@@ -74,7 +74,7 @@ module Geckodriver
     end
 
     def install_dir
-      dir = File.expand_path File.join(ENV['HOME'], '.geckodriver-helper')
+      dir = File.expand_path File.join(ENV['HOME'], '.geckodriver-bin')
       FileUtils.mkdir_p dir
       dir
     end

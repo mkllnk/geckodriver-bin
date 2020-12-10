@@ -2,14 +2,14 @@
 # frozen_string_literal: true
 
 $:.push File.expand_path("../lib", __FILE__)
-require "geckodriver/helper/version"
+require "geckodriver/bin/version"
 
 Gem::Specification.new do |s|
-  s.name        = "geckodriver-helper"
-  s.version     = Geckodriver::Helper::VERSION
-  s.authors     = ["Devico Solutions"]
-  s.email       = ["info@devico.io"]
-  s.homepage    = "https://github.com/DevicoSolutions/geckodriver-helper"
+  s.name        = "geckodriver-bin"
+  s.version     = Geckodriver::Bin::VERSION
+  s.authors     = ["0rvar", "Devico Solutions"]
+  s.email       = ["orvarsegerstrom@gmail.com"]
+  s.homepage    = "https://github.com/0rvar/geckodriver-bin"
   s.summary     = "Easy installation and use of geckodriver."
   s.description = "Easy installation and use of geckodriver, that provides the HTTP API
 described by the WebDriver protocol to communicate with Gecko browsers, such as Firefox."

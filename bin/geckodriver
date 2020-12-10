@@ -1,5 +1,5 @@
 #! /usr/bin/env ruby
 
-require 'geckodriver/helper'
+require 'geckodriver/bin'
 
-Geckodriver::Helper.new.run *ARGV
+Geckodriver::Bin.new.run *ARGV
