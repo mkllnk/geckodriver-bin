@@ -1,6 +1,10 @@
+# ⚠️ Maintenance
+
+This gem is currently not maintained but you can easily switch to [webdrivers](https://github.com/titusfortner/webdrivers), which is the new Rails default gem to install geckodriver, chromedriver and more.
+
 # geckodriver-bin
 
-*Note: This is a maintained fork of the abandoned gem [geckodriver-helper](https://github.com/DevicoSolutions/geckodriver-helper)*
+*Note: This is a fork of the abandoned gem [geckodriver-helper](https://github.com/DevicoSolutions/geckodriver-helper)*
 
 ![Build status](https://github.com/0rvar/geckodriver-bin/workflows/Tests/badge.svg)
 [![Gem Version](https://badge.fury.io/rb/geckodriver-bin.svg)](https://badge.fury.io/rb/geckodriver-bin)
